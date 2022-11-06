@@ -44,4 +44,5 @@ int main() {
 	Singer Tzina;
 	microphone(Tzina); // Upcasting, Tzina
 					  // (=Singer) "is a" Speaker
+	return 0;
 }
