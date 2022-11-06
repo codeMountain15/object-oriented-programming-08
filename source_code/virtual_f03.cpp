@@ -15,7 +15,6 @@ public:
 	}
 };
 
-
 // Singer objects are Speaker objects
 // as they have the same interface
 class Singer : public Speaker {
@@ -26,12 +25,10 @@ public:
 	}
 };
 
-
 void microphone(Speaker& input) {
 	cout << "On the microphone is the ";
 	input.talk();
 }
-
 
 int main() {
 	Speaker Vaggos;  // it's ok 
