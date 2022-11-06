@@ -30,11 +30,10 @@ int main()
 	hpr->test_3(); // Late binding
 	hpr->test_4(); // Late binding
 
-	// Early binding but this function call is
-	// illegal (produces error) because pointer
-	// is of base type and function is of
-	// derived class
 	// hpr->test_4(1); // error!
+		// pointer belongs to base class
+		// while test_4(int) belongs to
+		// the derived class
 
 	return 0;
 }
