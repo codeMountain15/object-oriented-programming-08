@@ -1,4 +1,4 @@
-// templates03.cpp
+// class_templates03.cpp
 // with pre-defined value
 
 #include <iostream>
