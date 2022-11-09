@@ -1,10 +1,10 @@
-// templates03.cpp
+// templates3.cpp
 // example: bubble sort
 
 #include <iostream>
 using namespace std;
 
-template <typename T> void bubble_sort(T input[], unsigned short int len)
+template <typename El> void bubble_sort(El input[], unsigned short int len)
 {
     for (int i = 0; i < len - 1; i++)
         for (int j = len - 1; i < j; j--)
