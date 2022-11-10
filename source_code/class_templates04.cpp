@@ -10,7 +10,7 @@ private:
     int sz; // the inner_array size
 
 public:
-    array_class(T input[], int length); // constructor
+    array_class(T [], int ); // constructor
     ~array_class(); // destructor
     // ...
 };
