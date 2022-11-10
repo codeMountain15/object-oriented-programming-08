@@ -24,7 +24,7 @@ int main()
     Abstract_Animal* a = &b; // OK to reference abstract base
     a->move();           // virtual dispatch to Mammal::move()
     
-    // a.sleep();  // error: sleep() is not a member of Abstract_Animal
+    // a->sleep();  // error: sleep() is not a member of Abstract_Animal
 
     return 0;
 }
