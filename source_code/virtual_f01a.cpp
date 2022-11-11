@@ -23,9 +23,6 @@ public:
     }
 };
 
-
-
-
 class subclass2 : public subclass {
 public:
     void hello() { cout << "hello() from subclass2\n"; }
@@ -34,8 +31,6 @@ public:
         cout << "yolo() from subclass2 and ...\n";
     }
 };
-
-
 
 int main() {
     hyperclass* hpr;
