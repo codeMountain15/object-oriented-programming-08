@@ -39,7 +39,7 @@ int main() {
 	microphone(Vaggos);
 
 	Singer Tzina;
-	microphone(Tzina); // Upcasting, Tzina
-					  // (=Singer) "is a" Speaker
+	microphone(Tzina); // Tzina (=Singer) "is a" Speaker
+	
 	return 0;
 }
