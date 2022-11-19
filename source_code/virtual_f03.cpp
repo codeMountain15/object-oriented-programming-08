@@ -1,9 +1,6 @@
 // virtual_f03.cpp
-// upcasting = 
-// treating a derived entity as
-// if it were its base entity
-// ...
-// the oposite is downcasting
+// upcasting
+// downcasting
 
 #include <iostream>
 using namespace std;
